@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="__Ev8AOppEeKdz5_ZtfPpIw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="__yJ0kOppEeKdz5_ZtfPpIw" name="Carro">
+    <ownedAttribute xmi:id="_BBXQgOqoEeKJWYCe4hsNQQ" name="id" type="_eWbPkOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_U8ZmIOqpEeKJWYCe4hsNQQ" name="marca" type="_WpRWoOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_WJRB4OqpEeKJWYCe4hsNQQ" name="modelo" type="_hAMHIOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_3-9J8OqpEeKJWYCe4hsNQQ" name="tipo" type="_nBkawOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_60kFIOqpEeKJWYCe4hsNQQ" name="caracteristica" type="_qVd0cOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_Eij0cOqqEeKJWYCe4hsNQQ" name="tarifa" type="_s4iOIOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_LWrMkOqqEeKJWYCe4hsNQQ" name="status" type="_vtkhkOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_vBMZkOr9EeKOc5RP7tSW4g" name="cliente" type="_jfiPgOqVEeKJWYCe4hsNQQ" association="_vBVjgOr9EeKOc5RP7tSW4g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vBMZker9EeKOc5RP7tSW4g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vBMZkur9EeKOc5RP7tSW4g" value="1"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_eWbPkOq0EeKJWYCe4hsNQQ" name="integer"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_WpRWoOq0EeKJWYCe4hsNQQ" name="string"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_hAMHIOq0EeKJWYCe4hsNQQ" name="string"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_nBkawOq0EeKJWYCe4hsNQQ" name="enumerator"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_qVd0cOq0EeKJWYCe4hsNQQ" name="string"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_s4iOIOq0EeKJWYCe4hsNQQ" name="float"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_vtkhkOq0EeKJWYCe4hsNQQ" name="enumerator"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jfiPgOqVEeKJWYCe4hsNQQ" name="Cliente">
+    <ownedAttribute xmi:id="_6VICAOqnEeKJWYCe4hsNQQ" name="cpf" type="_68w94Oq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_VRzOYOqpEeKJWYCe4hsNQQ" name="nome" type="_9jcsQOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_VzuPsOqpEeKJWYCe4hsNQQ" name="endereco" type="__YN1gOq0EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_pGnAMOqqEeKJWYCe4hsNQQ" name="telefone" type="_CSxiIOq1EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_p169QOqqEeKJWYCe4hsNQQ" name="email" type="_GtfZ8Oq1EeKJWYCe4hsNQQ"/>
+    <ownedAttribute xmi:id="_NATRoOr-EeKOc5RP7tSW4g" name="carro" type="__yJ0kOppEeKdz5_ZtfPpIw" association="_NATRo-r-EeKOc5RP7tSW4g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NATRoer-EeKOc5RP7tSW4g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NATRour-EeKOc5RP7tSW4g" value="1"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_68w94Oq0EeKJWYCe4hsNQQ" name="long"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9jcsQOq0EeKJWYCe4hsNQQ" name="string"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="__YN1gOq0EeKJWYCe4hsNQQ" name="string"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_CSxiIOq1EeKJWYCe4hsNQQ" name="integer"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_GtfZ8Oq1EeKJWYCe4hsNQQ" name="string"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vBVjgOr9EeKOc5RP7tSW4g" name="carro_cliente_1" memberEnd="_vBVjger9EeKOc5RP7tSW4g _vBMZkOr9EeKOc5RP7tSW4g">
+    <ownedEnd xmi:id="_vBVjger9EeKOc5RP7tSW4g" name="carro" type="__yJ0kOppEeKdz5_ZtfPpIw" association="_vBVjgOr9EeKOc5RP7tSW4g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vBVjgur9EeKOc5RP7tSW4g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vBVjg-r9EeKOc5RP7tSW4g" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NATRo-r-EeKOc5RP7tSW4g" name="cliente_carro_1" memberEnd="_NATRpOr-EeKOc5RP7tSW4g _NATRoOr-EeKOc5RP7tSW4g">
+    <ownedEnd xmi:id="_NATRpOr-EeKOc5RP7tSW4g" name="cliente" type="_jfiPgOqVEeKJWYCe4hsNQQ" association="_NATRo-r-EeKOc5RP7tSW4g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NATRper-EeKOc5RP7tSW4g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NATRpur-EeKOc5RP7tSW4g" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
