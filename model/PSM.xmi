@@ -8,6 +8,7 @@
     <column name="caracteristica" type="string"/>
     <column name="tarifa" type="float"/>
     <column name="status" type="enumerator"/>
+    <column name="cliente" type="Cliente"/>
   </sql:Table>
   <sql:Table name="Cliente">
     <column name="cpf" type="long"/>
@@ -15,5 +16,6 @@
     <column name="endereco" type="string"/>
     <column name="telefone" type="integer"/>
     <column name="email" type="string"/>
+    <column name="carro" type="Carro"/>
   </sql:Table>
 </xmi:XMI>
