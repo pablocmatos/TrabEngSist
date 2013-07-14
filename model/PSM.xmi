@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sql="http://sql/1.0">
+  <sql:Table name="Carro">
+    <column name="id" type="integer"/>
+    <column name="marca" type="string"/>
+    <column name="modelo" type="string"/>
+    <column name="tipo" type="enumerator"/>
+    <column name="caracteristica" type="string"/>
+    <column name="tarifa" type="float"/>
+    <column name="status" type="enumerator"/>
+  </sql:Table>
+  <sql:Table name="Cliente">
+    <column name="cpf" type="long"/>
+    <column name="nome" type="string"/>
+    <column name="endereco" type="string"/>
+    <column name="telefone" type="integer"/>
+    <column name="email" type="string"/>
+  </sql:Table>
+</xmi:XMI>
