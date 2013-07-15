@@ -118,7 +118,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_V1bQkOyxEeKNxYIPTNb26A" type="6001">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_V1bQkeyxEeKNxYIPTNb26A" y="-20"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_V1bQkuyxEeKNxYIPTNb26A" type="6002">
+    <children xmi:type="notation:DecorationNode" xmi:id="_V1bQkuyxEeKNxYIPTNb26A" visible="false" type="6002">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_V1bQk-yxEeKNxYIPTNb26A" y="10"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_V1bQlOyxEeKNxYIPTNb26A" type="6003">
