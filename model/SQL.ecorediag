@@ -82,9 +82,9 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_j_nUAepkEeKdz5_ZtfPpIw" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_j_nUAupkEeKdz5_ZtfPpIw" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="SQL.ecore#//Table/column"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j_nUA-pkEeKdz5_ZtfPpIw" points="[14, 0, -150, 2]$[74, 0, -90, 2]$[74, 12, -90, 14]$[134, 3, -30, 5]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uqYXEOs0EeKOc5RP7tSW4g" id="(0.8679245283018868,0.45098039215686275)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uqYXEes0EeKOc5RP7tSW4g" id="(0.2830188679245283,0.23529411764705882)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j_nUA-pkEeKdz5_ZtfPpIw" points="[14, 2, -150, 4]$[69, 12, -95, 14]$[134, 2, -30, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AyYzMO2DEeKiKuiZPaNPpw" id="(0.8679245283018868,0.45098039215686275)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AyYzMe2DEeKiKuiZPaNPpw" id="(0.2830188679245283,0.23529411764705882)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_oemn0OpkEeKdz5_ZtfPpIw" type="3002" source="_EDqxQOpjEeKdz5_ZtfPpIw" target="_9dr7wOpiEeKdz5_ZtfPpIw">
     <children xmi:type="notation:Node" xmi:id="_oen18OpkEeKdz5_ZtfPpIw" type="4011">
@@ -96,7 +96,7 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_oemn0epkEeKdz5_ZtfPpIw" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_oenO4OpkEeKdz5_ZtfPpIw" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="SQL.ecore#//Column/owner"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oenO4epkEeKdz5_ZtfPpIw" points="[-30, 5, 134, 3]$[-90, 14, 74, 12]$[-90, 2, 74, 0]$[-150, 2, 14, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oenO4epkEeKdz5_ZtfPpIw" points="[-30, 4, 134, 2]$[-95, 14, 69, 12]$[-150, 4, 14, 2]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CVqscOplEeKdz5_ZtfPpIw" id="(0.2830188679245283,0.23529411764705882)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CVqsceplEeKdz5_ZtfPpIw" id="(0.8679245283018868,0.45098039215686275)"/>
   </edges>
